@@ -11,7 +11,7 @@ module.exports = {
       else
         status = await system.run('npm install popcorn-tools')
       success(`${status}.`)
-      success(`🍿🛠 Install Popcorn Tools success!`)
+      success(`🍿 🔧🪓🔨 Install Popcorn Tools success!`)
     } catch (erro) {
       error(erro)
     }
