@@ -1,6 +1,6 @@
 module.exports = {
   name: 'tools',
-  description: 'Install popcor-tools package',
+  description: 'Install popcorn-tools package',
   run: async toolbox => {
     const { filesystem, system, print: { success, error } } = toolbox
     try {

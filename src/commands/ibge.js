@@ -1,6 +1,6 @@
 module.exports = {
   name: 'ibge',
-  description: 'Install popcor-ibge package',
+  description: 'Install popcorn-ibge package',
   run: async toolbox => {
     const { filesystem, system, print: { success, error } } = toolbox
     try {

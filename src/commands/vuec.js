@@ -1,6 +1,6 @@
 module.exports = {
-  name: 'vuec:page',
-  description: 'Create new vue page',
+  name: 'vuec',
+  description: 'Create new vue component',
   run: async toolbox => {
     const {
       parameters,
@@ -10,8 +10,8 @@ module.exports = {
     const name = parameters.first
 
     await template.generate({
-      template: 'vue/page.js.ejs',
-      target: `src/pages/${name}.vue`,
+      template: 'vue/component.js.ejs',
+      target: `src/components/${name}.vue`,
       props: { name },
     })
   }

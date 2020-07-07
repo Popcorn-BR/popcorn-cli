@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'npmc:pk',
+  name: 'npm',
   description: 'Create new npm package',
   run: async toolbox => {
     const {

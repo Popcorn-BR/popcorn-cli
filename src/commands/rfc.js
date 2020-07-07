@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'rc:component',
+  name: 'rfc',
   description: 'Create new component inside src/components',
   run: async toolbox => {
     const {
