@@ -1,6 +1,6 @@
 {
   "name": "popcorn-cli",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "popcorn CLI",
   "bin": {
     "pop": "bin/popcorn"
